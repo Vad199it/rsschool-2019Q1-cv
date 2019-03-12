@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.centring-container{
+    width: 1024px;
+    margin: 0 auto;
+}
 
 .footing{
     display: flex;
