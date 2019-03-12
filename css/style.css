@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.centring-container{
-    width: 1024px;
-    margin: 0 auto;
-}
 
 .footing{
     display: flex;
@@ -176,9 +172,6 @@ span {
     justify-content: space-around;
 }
 
-.footer-links div:hover{
-    filter:invert(1);
-}
 
 .vk {
     height: 40px;
