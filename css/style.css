@@ -172,6 +172,9 @@ span {
     justify-content: space-around;
 }
 
+.footer-links div:hover{
+    filter:invert(1);
+}
 
 .vk {
     height: 40px;
