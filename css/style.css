@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.centring-container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.footing{
+    display: flex;
+}
+
+header {
+    height: 610px;
+    background: url(../img/Background_header.jpg) no-repeat center center fixed;
+    background-size: 100%;
+
+}
+
+.container {
+    height: 1150px;
+    background: url(../img/Background_body.jpg) no-repeat center center;
+    -webkit-background-size: 100%;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    height: 120px;
+    background: url(../img/Background_foot.jpg) no-repeat center center;
+    background-size: 100%;
+    display: flex;
+}
+
+
+h1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.photo {
+    height: 290px;
+    width: 280px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.information {
+    margin: 0;
+    overflow: auto;
+    display: flex;
+}
+
+.information .data {
+    margin-right: 20px;
+}
+
+.container-contacts {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.name {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.developer {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 305px;
+    margin-top: 20px;
+    color: rgb(71, 74, 81);
+}
+
+
+.other-container {
+    padding-top: 40px;
+    text-transform: uppercase;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.inner-container {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding-left: 10px;
+    font-family: Bradley Hand, cursive;
+}
+
+.task-list .elem-list:hover{
+    color: rgb(242, 164, 125);
+    filter: drop-shadow( 0 0 1px rgb(250, 213, 194));
+}
+
+.elem-list {
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+}
+
+
+.headline {
+    font-family: Haettenschweile, serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 750px;
+    font-family: Bradley Hand, cursive;
+}
+
+span {
+    padding-left: 10px;
+    font-family: Bradley Hand, cursive;
+}
+
+.skills-section {
+    width: 450px;
+}
+
+.about-working-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.second-place {
+    padding-top: 10px;
+}
+
+.foot {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dev-name {
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 35px;
+}
+
+.paragraph-name {
+    color: white;
+    font-size: 23px;
+    font-family: Snell Roundhand, cursive;
+}
+
+.footer-links {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.footer-links div:hover{
+    filter:invert(1);
+}
+
+.vk {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.github {
+    height: 40px;
+    border-radius: 50%;
+}
